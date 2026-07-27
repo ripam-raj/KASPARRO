@@ -1,0 +1,37 @@
+{
+    "dashboards": {
+        "brand-1": {
+            "brandId": "brand-1",
+            "aiVisibilityScore": 78,
+            "trustScore": 82,
+            "eeeatScore": 75,
+            "keywordCoverage": 68,
+            "nonBrandedKeywords": 1247,
+            "totalKeywords": 3892,
+            "lastAuditDate": "2025-12-15T10:30:00Z",
+            "overallHealth": "good"
+        },
+        "brand-2": {
+            "brandId": "brand-2",
+            "aiVisibilityScore": 45,
+            "trustScore": 58,
+            "eeeatScore": 52,
+            "keywordCoverage": 34,
+            "nonBrandedKeywords": 456,
+            "totalKeywords": 1340,
+            "lastAuditDate": "2025-12-14T08:15:00Z",
+            "overallHealth": "moderate"
+        },
+        "brand-3": {
+            "brandId": "brand-3",
+            "aiVisibilityScore": 92,
+            "trustScore": 89,
+            "eeeatScore": 94,
+            "keywordCoverage": 87,
+            "nonBrandedKeywords": 2891,
+            "totalKeywords": 5120,
+            "lastAuditDate": "2025-12-16T05:45:00Z",
+            "overallHealth": "excellent"
+        }
+    }
+}
