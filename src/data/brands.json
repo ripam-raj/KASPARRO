@@ -1,0 +1,22 @@
+{
+    "brands": [
+        {
+            "id": "brand-1",
+            "name": "TechFlow AI",
+            "domain": "techflow.ai",
+            "logo": null
+        },
+        {
+            "id": "brand-2",
+            "name": "CloudScale Pro",
+            "domain": "cloudscale.pro",
+            "logo": null
+        },
+        {
+            "id": "brand-3",
+            "name": "DataVault Inc",
+            "domain": "datavault.io",
+            "logo": null
+        }
+    ]
+}
