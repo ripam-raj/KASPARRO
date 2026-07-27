@@ -1,0 +1,439 @@
+{
+    "modules": [
+        {
+            "id": "ai-visibility",
+            "name": "AI Visibility Audit",
+            "shortName": "AI Visibility",
+            "description": "Measures how visible your brand is in AI-generated search results across ChatGPT, Gemini, Perplexity, and other AI platforms.",
+            "icon": "Eye",
+            "score": 78,
+            "maxScore": 100,
+            "status": "good",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "AI Search Mentions",
+                    "value": 2847,
+                    "trend": "up",
+                    "description": "Times your brand was mentioned in AI responses"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Competitor Gap",
+                    "value": "+12%",
+                    "trend": "up",
+                    "description": "Your visibility improvement vs competitors"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Citation Rate",
+                    "value": "34%",
+                    "trend": "stable",
+                    "description": "Percentage of mentions with source links"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "warning",
+                    "title": "Low visibility in SearchGPT",
+                    "description": "Your brand appears 40% less frequently in SearchGPT compared to Perplexity"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "info",
+                    "title": "Geographic limitation",
+                    "description": "AI visibility is concentrated in US/EU markets, limiting APAC growth"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Optimize for Perplexity's citation format",
+                    "description": "Structure content with clear, citable facts and statistics",
+                    "impact": "Expected 25% visibility increase in Perplexity"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "medium",
+                    "title": "Expand entity associations",
+                    "description": "Create content linking your brand to key industry topics",
+                    "impact": "Broader topic coverage in AI responses"
+                }
+            ]
+        },
+        {
+            "id": "content-quality",
+            "name": "Content Quality Analysis",
+            "shortName": "Content Quality",
+            "description": "Evaluates your content against AI-preferred formats, depth, and accuracy signals.",
+            "icon": "FileText",
+            "score": 72,
+            "maxScore": 100,
+            "status": "good",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "Content Depth Score",
+                    "value": "B+",
+                    "trend": "up",
+                    "description": "Overall content comprehensiveness rating"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Fact Density",
+                    "value": 8.4,
+                    "trend": "stable",
+                    "description": "Citable facts per 1000 words"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Update Freshness",
+                    "value": "67%",
+                    "trend": "down",
+                    "description": "Content updated within 90 days"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "critical",
+                    "title": "Outdated statistics detected",
+                    "description": "23 pages contain statistics from 2023 or earlier"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "warning",
+                    "title": "Thin content pages",
+                    "description": "15 pages have less than 500 words"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Update outdated statistics",
+                    "description": "Refresh all pages with 2025 industry data",
+                    "impact": "Improved AI trust and citation likelihood"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "high",
+                    "title": "Expand thin content",
+                    "description": "Add depth to under-500-word pages",
+                    "impact": "Better coverage in comprehensive AI responses"
+                }
+            ]
+        },
+        {
+            "id": "eeat-assessment",
+            "name": "E-E-A-T Assessment",
+            "shortName": "E-E-A-T",
+            "description": "Analyzes Experience, Expertise, Authoritativeness, and Trustworthiness signals for AI credibility.",
+            "icon": "Award",
+            "score": 75,
+            "maxScore": 100,
+            "status": "good",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "Author Authority",
+                    "value": 82,
+                    "trend": "up",
+                    "description": "Average author expertise score"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Trust Signals",
+                    "value": 156,
+                    "trend": "up",
+                    "description": "External trust indicators detected"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Experience Markers",
+                    "value": "A-",
+                    "trend": "stable",
+                    "description": "First-hand experience signals"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "warning",
+                    "title": "Missing author credentials",
+                    "description": "12 articles lack clear author expertise indicators"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "info",
+                    "title": "Limited case studies",
+                    "description": "Experience signals could be strengthened with more case studies"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Add author bios with credentials",
+                    "description": "Include professional credentials and expertise areas",
+                    "impact": "20% improvement in expertise signals"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "medium",
+                    "title": "Publish customer case studies",
+                    "description": "Document real-world implementation experiences",
+                    "impact": "Stronger experience and trust signals"
+                }
+            ]
+        },
+        {
+            "id": "technical-seo",
+            "name": "Technical SEO Health",
+            "shortName": "Technical SEO",
+            "description": "Audits technical factors that affect AI crawling and content understanding.",
+            "icon": "Settings",
+            "score": 88,
+            "maxScore": 100,
+            "status": "excellent",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "Crawl Health",
+                    "value": "98%",
+                    "trend": "stable",
+                    "description": "Pages successfully crawled"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Schema Coverage",
+                    "value": "76%",
+                    "trend": "up",
+                    "description": "Pages with structured data"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Core Web Vitals",
+                    "value": "Good",
+                    "trend": "stable",
+                    "description": "Overall performance rating"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "info",
+                    "title": "Missing FAQ schema",
+                    "description": "FAQ content could benefit from structured markup"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "medium",
+                    "title": "Add FAQ schema to help pages",
+                    "description": "Implement FAQPage structured data",
+                    "impact": "Better representation in AI-generated summaries"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "low",
+                    "title": "Optimize image alt texts",
+                    "description": "Add descriptive alt texts for AI image understanding",
+                    "impact": "Improved multimodal AI comprehension"
+                }
+            ]
+        },
+        {
+            "id": "brand-entity",
+            "name": "Brand Entity Recognition",
+            "shortName": "Brand Entity",
+            "description": "Evaluates how well AI systems understand and associate your brand entity.",
+            "icon": "Building2",
+            "score": 65,
+            "maxScore": 100,
+            "status": "moderate",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "Entity Clarity",
+                    "value": "B",
+                    "trend": "up",
+                    "description": "How clearly AI understands your brand"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Association Strength",
+                    "value": 67,
+                    "trend": "stable",
+                    "description": "Topic-to-brand connection score"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Knowledge Graph",
+                    "value": "Partial",
+                    "trend": "up",
+                    "description": "Knowledge graph presence status"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "critical",
+                    "title": "Entity confusion detected",
+                    "description": "AI sometimes confuses your brand with 2 similarly-named competitors"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "warning",
+                    "title": "Weak category association",
+                    "description": "Brand not strongly linked to primary product category"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Strengthen brand disambiguation",
+                    "description": "Create content that clearly differentiates from similar entities",
+                    "impact": "Reduced AI confusion, clearer brand identity"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "high",
+                    "title": "Build category authority content",
+                    "description": "Publish definitive content in your primary category",
+                    "impact": "Stronger AI association with key topics"
+                }
+            ]
+        },
+        {
+            "id": "competitive-landscape",
+            "name": "Competitive Landscape",
+            "shortName": "Competitive",
+            "description": "Analyzes your AI visibility relative to competitors and market positioning.",
+            "icon": "TrendingUp",
+            "score": 71,
+            "maxScore": 100,
+            "status": "good",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "Market Position",
+                    "value": "#3",
+                    "trend": "up",
+                    "description": "AI visibility ranking in category"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Share of Voice",
+                    "value": "18%",
+                    "trend": "up",
+                    "description": "AI mention share vs competitors"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Gap to Leader",
+                    "value": "-12%",
+                    "trend": "up",
+                    "description": "Visibility difference from #1"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "warning",
+                    "title": "Competitor content advantage",
+                    "description": "Top competitor has 3x more indexed content"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "info",
+                    "title": "Emerging competitor",
+                    "description": "New entrant gaining AI visibility rapidly"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Expand content coverage",
+                    "description": "Create content for gaps where competitors dominate",
+                    "impact": "Capture underserved AI query topics"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "medium",
+                    "title": "Monitor emerging competitor",
+                    "description": "Track and respond to new competitor's AI strategy",
+                    "impact": "Maintain competitive position"
+                }
+            ]
+        },
+        {
+            "id": "citation-analysis",
+            "name": "Citation & Backlink Analysis",
+            "shortName": "Citations",
+            "description": "Tracks how AI systems cite and reference your content as authoritative sources.",
+            "icon": "Link",
+            "score": 69,
+            "maxScore": 100,
+            "status": "moderate",
+            "insights": [
+                {
+                    "id": "insight-1",
+                    "title": "AI Citations",
+                    "value": 892,
+                    "trend": "up",
+                    "description": "Times AI cited your content"
+                },
+                {
+                    "id": "insight-2",
+                    "title": "Citation Quality",
+                    "value": "7.2/10",
+                    "trend": "stable",
+                    "description": "Average citation context quality"
+                },
+                {
+                    "id": "insight-3",
+                    "title": "Backlink Authority",
+                    "value": 72,
+                    "trend": "up",
+                    "description": "Domain authority score"
+                }
+            ],
+            "issues": [
+                {
+                    "id": "issue-1",
+                    "severity": "warning",
+                    "title": "Low research citation rate",
+                    "description": "Original research is not being cited as expected"
+                },
+                {
+                    "id": "issue-2",
+                    "severity": "info",
+                    "title": "Citation decay",
+                    "description": "Some older citations are becoming less frequent"
+                }
+            ],
+            "recommendations": [
+                {
+                    "id": "rec-1",
+                    "priority": "high",
+                    "title": "Optimize research for citations",
+                    "description": "Format key statistics and findings for easy AI extraction",
+                    "impact": "Higher citation rate for original research"
+                },
+                {
+                    "id": "rec-2",
+                    "priority": "medium",
+                    "title": "Refresh evergreen content",
+                    "description": "Update high-performing content to maintain citations",
+                    "impact": "Sustained citation relevance"
+                }
+            ]
+        }
+    ]
+}
